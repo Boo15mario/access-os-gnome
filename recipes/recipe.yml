@@ -17,6 +17,10 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  - type: script
+    scripts:
+      - scripts/update-dconf.sh
+
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/system76-dev/stable/repo/fedora-%OS_VERSION%/system76-dev-stable-fedora-%OS_VERSION%.repo
