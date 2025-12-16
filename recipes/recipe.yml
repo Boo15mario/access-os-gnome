@@ -20,8 +20,56 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/system76-dev/stable/repo/fedora-%OS_VERSION%/system76-dev-stable-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/access-os/access-os/repo/fedora-%OS_VERSION%/access-os-access-os-fedora-%OS_VERSION%.repo
     install:
+      - https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
+      - https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
+      - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+      - steam
+      - steam-devices
+      - google-chrome-stable
+      - git
+      - gh
+      - fastfetch
+      - gedit
+      - lxterminal
+      - caja
+      - npm
+      - rpi-imager
+      - python3-psutil
+      - aria2
+      - breeze-gtk
+      - ocean-sound-theme
+      - gnome-tweaks
+      - quickemu
+      - virt-manager
+      - dconf-editor
+      - stack
+      - haskell-platform
+      - fluidsynth
+      - vlc
+      - yt-dlp
+      - mpv
+      - mplayer
+      - sox
+      - wine
+      - winetricks
+      - wine-mono
+      - android-tools
+      - rust
+      - cargo
+      - tailscale
+      - wget
+      - ntfs-3g
+      - rustfmt
+      - cargo-clippy
+      - copr-cli
+      - rpmdevtools
+      - rpmlint
+      - thunderbird
+      - arch-install-scripts
       - micro
+      - universal-startup-manager
       - system76-driver
       - system76-acpi-dkms
       - system76-io-dkms
