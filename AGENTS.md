@@ -10,7 +10,7 @@
 ## Build & Development Commands
 - Build image locally: `bluebuild build recipes/recipe.yml` (produces OCI/ostree image).
 - Validate recipe schema: `yq eval . recipes/recipe.yml >/dev/null` or open with YAML LSP.
-- Rebase to latest build (from README): `rpm-ostree rebase ostree-image-signed:docker://ghcr.io/boo15mario/access-os:latest`.
+- Rebase to latest build (from README): `rpm-ostree rebase ostree-image-signed:docker://ghcr.io/boo15mario/access-os-gnome:latest`.
 
 ## Coding Style & Naming Conventions
 - YAML: two-space indent; keep lists compact and sorted when practical.
