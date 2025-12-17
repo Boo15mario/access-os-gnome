@@ -23,7 +23,6 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/access-os/access-os/repo/fedora-%OS_VERSION%/access-os-access-os-fedora-%OS_VERSION%.repo
     install:
       - https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
       - https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
@@ -75,7 +74,6 @@ modules:
       - thunderbird
       - arch-install-scripts
       - micro
-      - universal-startup-manager
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
