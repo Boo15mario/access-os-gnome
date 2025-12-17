@@ -19,7 +19,7 @@ modules:
 
   - type: script
     scripts:
-      - scripts/update-dconf.sh
+      - update-dconf.sh
 
   - type: rpm-ostree
     repos:
