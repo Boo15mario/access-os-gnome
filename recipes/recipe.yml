@@ -60,7 +60,6 @@ modules:
       - wget
       - ntfs-3g
       - rustfmt
-      - rust-clippy
       - samba
       - samba-client
       - samba-common
