@@ -23,7 +23,6 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/system76-dev/stable/repo/fedora-%OS_VERSION%/system76-dev-stable-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/access-os/access-os/repo/fedora-%OS_VERSION%/access-os-access-os-fedora-%OS_VERSION%.repo
     install:
       - https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
@@ -77,13 +76,6 @@ modules:
       - arch-install-scripts
       - micro
       - universal-startup-manager
-      - system76-driver
-      - system76-acpi-dkms
-      - system76-io-dkms
-      - system76-oled
-      - system76-power
-      - system76-firmware
-      - system76-firmware-daemon
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
