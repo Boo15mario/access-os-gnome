@@ -25,10 +25,8 @@ modules:
     install:
       - https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
       - https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
-      - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
       - steam
       - steam-devices
-      - google-chrome-stable
       - git
       - gh
       - fastfetch
@@ -51,7 +49,6 @@ modules:
       - vlc
       - yt-dlp
       - mpv
-      - mplayer
       - sox
       - wine
       - winetricks
@@ -63,7 +60,7 @@ modules:
       - wget
       - ntfs-3g
       - rustfmt
-      - cargo-clippy
+      - rust-clippy
       - samba
       - samba-client
       - samba-common
